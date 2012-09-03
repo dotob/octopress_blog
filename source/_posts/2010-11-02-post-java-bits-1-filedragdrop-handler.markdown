@@ -6,8 +6,8 @@ comments: true
 ---
 drop a file from the explorer to a textbox and make the path the text of that textbox:
 
-<pre lang="java">
-	// imports omitted, dont know why...
+``` java
+// imports omitted, dont know why...
 
 	public class Foo extends TransferHandler {
 		//.../*DRAG &amp;amp; DROP*/
@@ -49,4 +49,4 @@ drop a file from the explorer to a textbox and make the path the text of that te
 			}return false;
 		}
 	}
-</pre> 
+```
