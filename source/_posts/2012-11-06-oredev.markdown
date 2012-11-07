@@ -6,11 +6,11 @@ comments: true
 categories: 
 ---
 
-since monday i am in malmö, sweden. attending the [oredev conference]{http://oredev.org/}. its been great here. what happend till now:
+since monday i am in malmö, sweden. attending the [oredev conference](http://oredev.org/). its been great here. what happend till now:
 
 ## monday: 
 - continous delivery with tom sulston und rachel laycock. great stuff. 
-- in the evening we met at [kallbadhus]{http://www.ribersborgskallbadhus.se/} a sauna in the sea. after you got heated up you can take a dip in the cold seawater. monday there where 6°C. crazy...
+- in the evening we met at [kallbadhus](http://www.ribersborgskallbadhus.se/) a sauna in the sea. after you got heated up you can take a dip in the cold seawater. monday there where 6°C. crazy...
 
 ## tuesday:
 - started with vim masterclass with drew neil. his new book practical vim is out on pragpub. and his workshop was great. i learned a lot about some vim stuff i didnt know. instead of giving a light overview of all the stuff vim can do drew concentrated on some very important basics. e.g. text objects, optimizing your commands for the mighty dot-command and macros
