@@ -6,7 +6,7 @@ require "stringex"
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
 ssh_user       = "root@dotob.de"
 ssh_port       = "22"
-document_root  = "/var/www/batteryslave_new"
+document_root  = "/var/www/batteryslave"
 rsync_delete   = true
 deploy_default = "rsync"
 
