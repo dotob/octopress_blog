@@ -7,7 +7,8 @@ comments: true
 in a project with java and .net komponents we needed to share some validation-code. this code should be executable on both platforms and act against pocos (plain old clr objects) and pojos (plain old java objects). 
 we tested python as a language that can be executed on both sides using jython for java and ironpython for c#. i want to show you how simple an integration of python is here. 
 for c# and ironpython:
-<pre lang="csharp" line="1">
+
+``` csharp
 	using System;
 	using IronPython.Hosting;
 	using Microsoft.Scripting;
@@ -46,10 +47,11 @@ for c# and ironpython:
 			public string NochName { get; set; }
 		}
 	}
-</pre>
+```
 
 and almost the same for java:
-<pre lang="java" line="1">
+
+``` java
 	import org.python.util.PythonInterpreter;
 	import org.python.core.*;
 	public class JythonValidationTest {
@@ -90,8 +92,10 @@ and almost the same for java:
 			this.bis = bis;    
 		}
 	}
-</pre>
+```
+
 remaining problems:
+
 - because of naming-convention differences you have to wrap python code so that you can intersept calls to get*() methods. as in c# getters and setters look like Name instead of getName()
 - if there are user visible strings involved, you have to think about translating them
 - checking the python code before deployment
