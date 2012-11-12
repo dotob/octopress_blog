@@ -3,10 +3,8 @@ layout: post
 title: "oredev twitter statistics"
 date: 2012-11-08 23:18
 comments: true
-categories: 
+categories: code twitter oredev
 ---
-
-**theses are preliminary results...i will update them friday or saturday**
 
 with beeing at oredev one has to use twitter. so i did and it is was fun. got some new followers and found some interesting side infos and also some new guys to follow. but i wondered if there is some statistic data to gather around twitter usage. heres what i did:
 
@@ -52,5 +50,5 @@ awk -F, '{print $2}' all_tweets | awk -F: '{print $1}' | uniq -c > time_distribu
 
 #### time distribution graph
 
-![time distribution](images/oredev_tweets_timedistribution.png)
+![time distribution](/images/oredev_tweets_timedistribution.png)
 unfortunately without meaningful x-axis lables...any ideas how to get that right are welcome.

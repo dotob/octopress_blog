@@ -3,7 +3,7 @@ layout: post
 title: "oredev 2012"
 date: 2012-11-06 21:52
 comments: true
-categories: 
+categories: oredev
 ---
 
 since monday i am in malmö, sweden. attending the [oredev conference](http://oredev.org/). its been great here. what happend till now:

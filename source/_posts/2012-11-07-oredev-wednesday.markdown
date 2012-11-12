@@ -3,7 +3,7 @@ layout: post
 title: "oredev wednesday"
 date: 2012-11-07 23:25
 comments: true
-categories: 
+categories: oredev
 ---
 
 after the two workshop days now the real conference part starts. and the venue is filling up. 

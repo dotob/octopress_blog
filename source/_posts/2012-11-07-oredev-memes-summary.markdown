@@ -3,7 +3,7 @@ layout: post
 title: "oredev memes summary"
 date: 2012-11-07 13:06
 comments: true
-categories: 
+categories: oredev
 ---
 
 here on oredev the conference rooms are named after [internet memes](http://en.wikipedia.org/wiki/Internet_meme). what a great idea.
